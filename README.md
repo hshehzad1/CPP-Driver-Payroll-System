@@ -28,14 +28,18 @@ This application processes fictional logistics driver payroll data, calculates p
 
 All driver information is fictional and included for demonstration and testing purposes.
 
-## How to Run
+## How to Run the Project
 
-1. Download or clone this repository.
-2. Open `Payroll System.sln` in Visual Studio.
-3. Select the Debug and x64 configuration.
-4. Copy `drivers.txt`, `jan26.txt`, `feb26.txt` and `mar26.txt` into the executable's working directory (`x64/Debug` with the current configuration).
-5. Build and run the application using Ctrl + F5.
+1. Download the repository as a ZIP file from GitHub.
+2. Extract the ZIP file.
+3. Open `Payroll System.sln` in Microsoft Visual Studio.
+4. In Solution Explorer, right-click the **Payroll System** project and select **Properties**.
+5. Navigate to **Configuration Properties → Debugging**.
+6. Set **Working Directory** to `$(SolutionDir)`.
+7. Click **Apply**, then **OK**.
+8. Run the application using **Local Windows Debugger**.
 
+**Note:** The application uses `drivers.txt` and monthly payroll text files. These are included in the repository and must remain in the main solution directory.
 ## Author
 
 Hina Shehzad  
